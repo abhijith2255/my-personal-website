@@ -1,0 +1,267 @@
+
+.navbar-brand{
+   
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin-left: 85px;
+    
+}
+.navbar{
+    background-color: whitesmoke;
+    font-weight: bold;
+    
+}
+.dropdown-item{
+    font-weight: bold;
+    background-color: rgb(230, 113, 119);
+
+}
+.image1{width: 100%;
+    height: 500px;
+}
+   
+.titiletext{
+   font-weight:bold;
+   margin-left: 55px;
+   font-weight: bold;
+   color: red;
+}
+
+   
+.abouttitle{
+    margin-left: 55px;
+    color:#fff;
+
+    font-weight: 400;
+    font-family: 'Playfair Display', serif;
+    
+}
+.profilepic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+    width: 100px;
+    height: 100px;
+   
+}
+.lastline{
+    font-weight:650;
+    margin-left: 55px;
+    margin-top: -36px;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+}
+
+.profilename{
+    text-align: center;
+     font-size:larger;
+    color: #fff;
+    font-weight: bold;
+}
+.profilename1{
+    text-align: center;
+    font-size:x-small;
+    font-style: italic;
+    font-weight: bold;
+    margin-top: -9px;
+    color: #fff;
+}
+.profileplace{
+    text-align: center;
+    font-size: x-small;
+    font-weight: bold;
+    font-style: normal;
+    margin-top: -8px;
+    color: #fff;
+}
+.cybertext{
+    text-align: center;
+    font-weight: bold;
+}
+.webtext{
+    text-align: center;
+    font-weight: bold;
+}
+.webapptext{
+    text-align: center;
+    font-weight: bold;
+
+
+}
+.desiningfont{
+    color:red;
+}
+.card-title{
+   font-weight: bold;
+    margin-top: 16px;
+}
+.servicediv{
+    padding-top: 15px;
+}
+
+.servicedtext{
+    color: red;
+    font-weight: bold;
+    margin-left: 55px;
+}
+.card{
+    background-color: antiquewhite;
+}
+.skilldiv{
+    margin-left: 45px;
+    padding-top: 10px;
+}
+.skilltext{
+    color: red;
+    font-weight: bold;
+    margin-left: 55px;
+    padding-top: 16px;
+}
+.progress{
+    margin-top: 33px;
+    
+}
+
+
+
+
+
+
+
+
+a{
+    text-decoration: none !important;
+}
+.progress-title{
+    width: 100%;
+    height: 50px;
+}
+.progress-title h3{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0 0 20px;
+    margin-bottom: -34px;
+    margin-top: 6px;
+}
+.progress{
+    height: 14px;
+    background: #171b3c;
+    border-radius: 20px;
+    border: 1px solid #000;
+    box-shadow: 0 2px 2px #4f4c4c;
+    margin-bottom: 10px;
+    overflow: visible;
+    position: relative;
+}
+.progress .progress-bar{
+    border-radius: 20px;
+    border: 1px solid #000;
+    animation: animate-positive 2s;
+}
+.progress .progress-value{
+    width: 41px;
+    height: 16px;
+    line-height: 17px;
+    background: #171b3c;
+    font-size: 10px;
+    color: #fff;
+    border-radius: 0 0 15px 15px;
+    border: 1px solid #000;
+    border-top: none;
+    box-shadow: 0 2px 2px #4f4c4c;
+    position: absolute;
+    bottom: -16px;
+    right: 60px;
+    font-weight: bold;
+    font-style: italic;
+}
+@-webkit-keyframes animate-positive{
+    0%{
+        width: 0;
+    }
+}
+@keyframes animate-positive{
+    0%{
+        width: 0;
+    }
+}
+.skilltext{
+    margin-left: -27px;
+    font-weight: bold;
+    text-align: center;
+}
+.skiltext{
+    color: #fff;
+}
+ 
+
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.7),#3551b5), url(banner5.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+    width: 90%;
+    max-width: 600px;
+}
+
+.input-group{
+    margin-bottom: 30px;
+    position: relative;
+}
+
+input, textarea{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #fff;
+    background: transparent;
+    font-size: 15px;
+}
+label{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 10px;
+    color: #fff;
+    cursor: text;
+    transition: 0.5s;
+
+}
+.submitbutton{
+    padding: 10px 0;
+    color: #fff;
+    outline: none;
+    background: transparent;
+    border: 1px solid #fff;
+    width: 100%;
+    cursor: pointer;
+}
+input:focus~label,
+input:valid~label,
+textarea:focus~label,
+textarea:valid~label{
+    top: -35px;
+
+}
+.contact-text{
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.single-cta i{
+    color:orangered;
+    float: left;
+    font-size: 20px;
+}
